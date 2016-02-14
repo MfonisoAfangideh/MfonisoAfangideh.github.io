@@ -1,4 +1,5 @@
 style.css
+<style>
 body{
 	background-color: #d0e4fe;
 }
@@ -6,3 +7,4 @@ body{
 h1, p {
 	color: red;
 }
+<style>
