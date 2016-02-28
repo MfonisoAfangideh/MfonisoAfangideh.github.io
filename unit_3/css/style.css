@@ -1,7 +1,7 @@
 body{
 	text-align: center;
-	background-image: url("images/Health-and-Fitness.jpg");
-	bacgkround-size: cover;
+	background: url("images/Health-and-Fitness.jpg");
+	
 	color: #fff;
 	font-family: sans-serif;
 }
