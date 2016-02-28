@@ -1,12 +1,13 @@
 body{
 	text-align: center;
-	background-image: url("Health-and-Fitness.jpg");
-	
-	color: #f00;
+	background: url("Health-and-Fitness.jpg");
+	background-color: #000000;
+	color: #FAF0ED;
 	font-family: sans-serif;
 }
 #slogan{
 	font-size: 30px;
+	font-variant-caps: 30px; 
 }
 h1{
 	font-size: 40px;
