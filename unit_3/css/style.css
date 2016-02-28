@@ -1,9 +1,9 @@
 body{
 	text-align: center;
-	background: url("img_Health-and-Fitness.jpg");
 	background-color: #000000;
 	color: #FAF0ED;
 	font-family: sans-serif;
+	background-image: url("img_images/Health_and_Fitness");
 }
 #slogan{
 	font-size: 30px;
