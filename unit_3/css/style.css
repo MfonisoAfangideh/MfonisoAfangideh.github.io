@@ -1,8 +1,8 @@
 body{
 	text-align: center;
-	background: url("Health-and-Fitness.jpg");
+	background-image: url("Health-and-Fitness.jpg");
 	
-	color: #fff;
+	color: #f00;
 	font-family: sans-serif;
 }
 #slogan{
