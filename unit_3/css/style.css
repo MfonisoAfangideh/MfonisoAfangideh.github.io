@@ -1,6 +1,6 @@
 body{
 	text-align: center;
-	background: url("images/Health-and-Fitness.jpg");
+	background: url("Health-and-Fitness.jpg");
 	
 	color: #fff;
 	font-family: sans-serif;
@@ -17,4 +17,7 @@ p {
 }
 hr{
 	width:200px;
+}
+.words{
+	font-size: 20px;
 }
