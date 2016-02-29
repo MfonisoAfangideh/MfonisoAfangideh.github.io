@@ -10,10 +10,12 @@ body{
 }
 h1{
 	font-size: 40px;
-	font-weight: 10px; 
+	font-weight: 10px;
+	color: #FAF0ED; 
 }
 p {
 	font-size: 20px;
+	color: #FAF0ED;
 }
 hr{
 	width:200px;
