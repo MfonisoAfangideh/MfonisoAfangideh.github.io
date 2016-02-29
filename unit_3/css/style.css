@@ -3,7 +3,7 @@ body{
 	background-color: #000000;
 	color: #FAF0ED;
 	font-family: sans-serif;
-	background: url("img_images/Health_and_Fitness");
+	background-image: url("img_images/Health_and_Fitness");
 }
 #slogan{
 	font-size: 30px;
