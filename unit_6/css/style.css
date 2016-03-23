@@ -1,0 +1,104 @@
+*, 
+*:before,
+*:after{
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+header
+{
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+#nav1
+{
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+#nav2
+{
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+#nav3
+{
+	background-color: #E8C66A;
+	border:1px black solid;
+	padding: 20px;
+}
+aside
+{
+	background-color: #ffc67c;
+	border: 1px black solid;
+	padding: 20px;
+}
+article
+{
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer
+{
+	background-color: #FF9D7E;
+	border: 1px black solid;
+	padding: 20px;
+}
+div, section
+{
+	background-color: #FFE2B8;
+}
+.navitem
+{
+	width: 33.333%;
+	float: left;
+
+}
+.clear
+{
+	overflow: auto;
+}
+img 
+{
+	float: left;
+}
+#two_column
+{
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+#left
+{
+	background-color: #E582A2;
+	border:1px black solid;
+	padding: 20px;
+	float: left;
+	width:32%;
+
+}
+#right
+{
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 60%;
+}
+.clearfix:after
+{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+ 
+}
