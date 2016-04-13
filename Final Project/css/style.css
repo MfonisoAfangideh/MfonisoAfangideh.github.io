@@ -1,7 +1,8 @@
 
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
-*, 
-*:before,
+*{
+	margin: 0;
+} 
+/**:before,
 *:after{
 	margin: 0;
 	padding: 0;
@@ -9,78 +10,46 @@
 	-webkit-box-sizing: border-box;
 	
 	box-sizing: border-box;
-}
-body{
-	background-image: url("../images/fitness.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
+	*/
+
+html, body {
 	height: 100%;
 }
 
-h1
+h1, h2, h3, h4, h5, h6, p
 {
-	text-align: center;
-	font-family: 'Pacifico', cursive;
-	display:inline-block;
-	margin: 0 auto;
+	margin-bottom: 20px;
 }
-
 /*header
 {
 	background-color: #FFED74;
 	border: 1px black solid;
 	padding: 20px;
-}*/
-#nav1
+}*/	
+
+nav
 {
-	
-	
+	position: fixed;
+	width:100%;
+	height: 50px;
+	background-color: rgba(0,0,0,.5);
+	z-index:99;
+	text-align: center;
 
 }
-#nav2
+nav a
 {
-	
-	
+	text-decoration: none;
+	color: #fff;
+	margin-left: 30px;
+	line-height: 50px;
 }
-#nav3 
-{
-	
-	
-	
-}
-
-footer
-{
-	background-color: white;
-	padding: 20px;
-	position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-.navitem
-{
-	width: 33.333%;
-	float: left;
-
-}
-.clear
+/*.clear
 {
 	overflow: auto;
-}
-img 
-{
-	float: left;
-}
-#container
-{
-	width: 30%;
-	display: inline-block;
-	position: relative;
-	left: 0;
-	float: right;
-}
+}*/
+
+
 /*.clearfix:after
 {
 	visibility: hidden;
@@ -91,5 +60,110 @@ img
 	height: 0;
  
 }*/
+/*.nava
+{
+	text-align: center;
+	font-size: 40px;
+}*/
+.sect
+{
+	height: 100%;
+	background-size: contain;
+
+
+}
+
+/*.subSection{
+	height: 50% ;
+	background-color: yellow;
+}*/
+.sectOne
+{
+	background-image: url("../images/healthyfood.jpg");
+
+}
+.sectTwo 
+{
+	height: 50%;
+	background-color: #fff;
+
+}
+.sectThree
+{
+	background-color: yellow;
+
+}
+.sectFour
+{
+	background-color: purple;
+}
+#intro
+{
+	float: left;
+	border: 1px;
+	padding: 20px;
+	width: 32%;
+}
+#picture
+{
+	float: right;
+
+}
+img 
+{
+	display: block;
+	margin: 0 auto;
+	width: 450px;
+}
+
+#photos
+{
+	line-height: 0;
+
+	-webkit-column-count: 4;
+	-webkit-column-gap: 0px;
+	-moz-column-count: 4;
+	-moz-column-gap: 0px;
+	column-count: 4;
+	column-gap: 0px;
+}
+#photos img 
+{
+	width: 100% !important;
+	height: auto !important;
+}
+.img-circle
+{
+	border-radius: 50%;
+	height: 350px;
+}
+
+div.texthover{
+	width:100%;
+	display:block;
+	position:relative;
+	text-align: center !important;
+	
+}
+
+div.texthover .overlay{
+	position: absolute;
+	top: 45%;
+	width: 0;
+	width: 100%;
+	height: 45%;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.3);
+	display:none;
+}
+div.texthover:hover .overlay{
+	display: block;
+}
+
+
+
+
+ 
+
 
 
